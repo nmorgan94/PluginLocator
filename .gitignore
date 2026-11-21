@@ -1,0 +1,8 @@
+# The generated folder of links, rebuilt on every run
+/PluginLocator/
+
+# Personal settings (copy config.example.py to create it)
+/config.py
+
+.DS_Store
+__pycache__/
