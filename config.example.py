@@ -1,14 +1,14 @@
 # PluginLocator settings. Copy this file to config.py and edit it, then run
 # `pl`. Run it again after every change.
 
-# The plugins to show, as  "Name": "project folder".
-# The name must be exactly the plugin's name (capitals included): the same
-# name as the CMake target, the built file (Name.vst3) and the presets folder.
-# Comment a line out to hide that plugin for now.
-PLUGINS = {
-    "MyPlugin": "~/Source/MyPlugin",
-    # "MyOtherPlugin": "~/Source/MyOtherPlugin",
-}
+# Your plugin project folders, one per line. The plugins shown are whatever
+# has been built there: each built Name.vst3 or Name.component is listed as
+# "Name", along with installed copies and presets of the same name.
+# Comment a line out to hide that project for now.
+PROJECTS = [
+    "~/Source/MyPlugin",
+    # "~/Source/MyOtherPlugin",
+]
 
 # Which installed plugins are yours: only plugins whose bundle identifier
 # starts with one of these are listed under Installed Plugins.
